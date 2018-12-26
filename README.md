@@ -14,9 +14,13 @@ debug工具，包括各种link工具
 
 openocd调试下载工具 
 
-#### [link](link/)
+#### [stlink](stlink/)
 
-各种link连接工具
+stlink固件源码
+
+#### [hardware](hardware/)
+
+各种link的硬件资源
 
 ## [toolchain](https://github.com/mcuyun/toolchain) 
 
@@ -32,5 +36,5 @@ openocd调试下载工具
 ---
 
 ###  [嵌入式开发云](http://www.mcuyun.com)
-###  qitas@qitas.cn
-###  2018-12-13
+####  qitas@qitas.cn
+###  2018-12-26
