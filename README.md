@@ -2,11 +2,11 @@
 
 [![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
 
-### [toolchain](https://github.com/mcuyun/toolchain) 
+#### [toolchain](https://github.com/mcuyun/toolchain) 
 
 ## [简介](https://github.com/mcuyun/debug/wiki) 
 
-debug工具，包括各种link工具
+debug工具，包括各种调试工具
 
 ## [组成](mcuyun/) 
 
@@ -14,13 +14,15 @@ debug工具，包括各种link工具
 
 openocd调试下载工具 
 
-#### [stlink](stlink/)
+#### [stlink](https://github.com/mcuyun/stlink)
 
-stlink固件源码
+stlink资源
 
-#### [hardware](hardware/)
+#### [Jlink](https://github.com/mcuyun/Jlink)
 
-各种link的硬件资源
+Jlink资源
+
+---
 
 ## [toolchain](https://github.com/mcuyun/toolchain) 
 
