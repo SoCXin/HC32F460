@@ -1,0 +1,27 @@
+config RT_USING_UART1
+    bool "Enable UART1"
+    default n
+
+config RT_USING_UART2
+    bool "Enable UART2"
+    default n
+
+config RT_USING_UART3
+    bool "Enable UART3 (PE4/5)"
+    default y
+
+config RT_USING_UART4
+    bool "Enable UART4"
+    default n
+
+config RT_USING_I2C1
+    bool "Enable I2C1"
+    default n
+
+config RT_USING_I2C2
+    bool "Enable I2C2 (PD0/1)"
+    default n
+
+config RT_USING_I2C3
+    bool "Enable I2C3"
+    default y
