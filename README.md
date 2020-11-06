@@ -1,11 +1,14 @@
-﻿# [Debug](https://github.com/sochub/Debug) 
+﻿# [HC32F460](https://github.com/SoCXin/HC32F460)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](https://stop.stops.top) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-### 父级：[SDK](https://github.com/sochub/SDK) 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[HDSC](https://www.hdsc.com.cn/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4)
+#### [Level](https://github.com/SoCXin/Level)：200 MHz  * 1.25 DMIPS/MHz
 
-## [简介](https://github.com/sochub/Debug/wiki) 
+[HC32F460](https://github.com/SoCXin/HC32F460)
 
-开放调试工具
+### [选型建议](https://github.com/SoCXin)
 
-##  [SoC资源平台](http://www.qitas.cn)
+
+###  [SoC芯平台](http://www.SoC.Xin)
