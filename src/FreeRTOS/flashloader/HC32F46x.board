@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$PROJ_DIR$\flashloader\FlashHC32F46x.flash</loader>
+    <range>CODE 0x0 0x7ffff</range>
+  </pass>
+</flash_board>
+
+
