@@ -27,6 +27,16 @@ jobs:
           mkdir build && cd build
           cmake -D CROSS_COMPILER_PATH=../gcc-arm-none-eabi-10-2020-q4-major ..
 
+      - name: output
+        run: |
+          mkdir src/templete/output
+
+      - name: Action build
+        uses: Qful/cmake-action@master
+        with:
+          source-dir: src/templete
+          build-dir: src/templete/output
+          parallel: 8
 
       - uses: actions/upload-artifact@v2
         with:
