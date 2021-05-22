@@ -21,12 +21,14 @@ jobs:
           tar -xf gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
           echo `pwd`/gcc-arm-none-eabi-10-2020-q4-major/bin >> $GITHUB_PATH
 
-      - name: Build template
-        working-directory: src
+      - name: Build templete
+        working-directory: src/templete
         run: |
-          make -C gcc_template
+          mkdir build && cd build
+          cmake -D CROSS_COMPILER_PATH=../gcc-arm-none-eabi-10-2020-q4-major ..
+
 
       - uses: actions/upload-artifact@v2
         with:
-          name: gcc_template
-          path: src/gcc_template
+          name: templete
+          path: src/templete/build
