@@ -25,7 +25,7 @@ jobs:
         working-directory: src/templete
         run: |
           mkdir build && cd build
-          cmake -D CROSS_COMPILER_PATH=../gcc-arm-none-eabi-10-2020-q4-major ..
+          cmake CROSS_COMPILER_PATH=../gcc-arm-none-eabi-10-2020-q4-major ..
 
       - name: output
         run: |
