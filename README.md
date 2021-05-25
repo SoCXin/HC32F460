@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/SoCXin/HC32F460/workflows/src/badge.svg)](https://github.com/SoCXin/HC32F460/actions/workflows/src.yml)
 
 * [HDSC](https://www.hdsc.com.cn/)：[Cortex-M4](https://github.com/SoCXin/Cortex)
-* [L5R5](https://github.com/SoCXin/Level) ：200 MHz * 1.25 DMIPS/MHz (680CoreMark)
+* [L5R5](https://github.com/SoCXin/Level)：200 MHz * 1.25 DMIPS/MHz (680CoreMark)
 
 ## [简介](https://github.com/SoCXin/HC32F460/wiki)
 
