@@ -1,50 +1,35 @@
 {
-    "name":"HC32F460",
-    "series":["HC32F460C6PA","HC32F460C6PB","HC32F003C4PB"],
     "type":"MCU",
-    "Core":"Cortex-M4",
+    "name":"HC32F460",
     "Freq":"200MHz",
-    "description":"hdsc Cortex-M4 MCU",
-    "peripheral": ["ADC","IIC","UART","SPI","LDO","PWM"],
-    "package":["QFN20","SOP20","TSSOP20"],
-    "SRAM":4,
-    "Flash":32,
-    "DATA":128,
-    "UART": {
-        "num": 2,
-        "FIFO": 16,
-        "ISO7816": 1,
-        "more":["BUAD","LIN","IrDA"]
-    },
-    "ADC": {
-        "num": 1,
-        "channel": 8,
-        "resolution": 12,
-        "rate": 2400
-    },
-    "TIM": {
-        "resolution":[16,16,16],
-        "rate": 1024
-    },
-    "PWR": {
-        "VDD": [2800,5000],
-        "Ivdd": 3.5,
-        "LDO": [5000,3300],
-        "rate": 1024
-    },
-    "PWM": {
-        "num": 2,
-        "resolution": 8,
-        "rate": 256
-    },
-    "upload": {
-        "ISP": true,
-        "IAP": true,
-        "SWD": true,
-        "speed": 115200
-    },
-    "vendor":"nuvoton",
+    "Core":"Cortex-M4",
+    "title": "HDSC HC32F460 MCU",
+    "description":"HDSC Cortex-M4 MCU",
     "url":"http://www.SoC.xin/HC32F460",
-    "repo":"https://github.com/SoCXin/HC32F460",
-    "version":"1.0.0"
+    "version":"1.0.0",
+    "manufacturer": {
+        "vendor":"HDSC",
+        "homepage":"https://www.hdsc.com.cn/Category83-1490"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/HC32F460.git"
+    },
+    "series":["HC32F460KC","HC32F460JC","HC32F460KE","HC32F460PE"],
+    "package":["UFBGA100","LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "HC32F460KC": {
+        "RAM":20000,
+        "ROM":64000,
+        "package":"LQFP64",
+        "peripheral": ["ADC","TIM","PWM"],
+        "GPIO":18,
+        "price":6.8
+    },
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "hdsc"
+    ]
 }
