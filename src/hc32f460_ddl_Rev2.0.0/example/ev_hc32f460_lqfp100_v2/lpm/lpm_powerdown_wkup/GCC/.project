@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>lpm_powerdown_wkup</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>source</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/source</locationURI>
+		</link>
+        <link>
+            <name>readme</name>
+            <type>2</type>
+            <locationURI>virtual:/virtual</locationURI>
+         </link>
+        <link>
+        <name>readme/readme.txt/</name>
+        <type>1</type>
+        <locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Readme.txt</locationURI>
+		</link>
+        
+	<link>
+<name>common</name>
+<type>2</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/mcu/common</locationURI>
+</link>
+<link>
+<name>driver</name>
+<type>2</type>
+<locationURI>virtual:/virtual</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_utility.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_utility.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_pwc.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_pwc.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_interrupts.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_interrupts.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_clk.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_clk.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_icg.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_icg.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_efm.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_efm.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_sram.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_sram.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_gpio.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_gpio.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_exint_nmi_swi.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_exint_nmi_swi.c</locationURI>
+</link>
+<link>
+<name>driver/hc32f460_keyscan.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/driver/src/hc32f460_keyscan.c</locationURI>
+</link>
+<link>
+<name>ev_hc32f460_lqfp100_v2</name>
+<type>2</type>
+<locationURI>virtual:/virtual</locationURI>
+</link>
+<link>
+<name>ev_hc32f460_lqfp100_v2/ev_hc32f460_lqfp100_v2.c</name>
+<type>1</type>
+<locationURI>$%7BPARENT-5-PROJECT_LOC%7D/bsp/ev_hc32f460_lqfp100_v2/ev_hc32f460_lqfp100_v2.c</locationURI>
+</link>
+
+	</linkedResources>
+</projectDescription>

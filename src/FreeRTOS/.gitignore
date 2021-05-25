@@ -23,12 +23,3 @@ out/
 Debug/
 Release/
 settings/
-2P/
-4P/
-RS2P/
-RA2P/
-RS4P/
-RA4P/
-*.pyc
-.pio/
-.vscode/
