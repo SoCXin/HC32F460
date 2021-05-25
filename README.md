@@ -18,7 +18,8 @@
 * 4 x USART
 * 2 x 12bit 2.5MSPS ADC
 * 3 x CMP
-* PGA
+* 可编程增益放大器PGA
+* 片上温度传感器(OTS)
 
 #### 封装规格
 
