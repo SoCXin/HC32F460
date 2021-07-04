@@ -15,7 +15,6 @@ output
 RTE
 *uvguix*
 *.scvd
-settings
 *.tmp
 settings
 config
@@ -28,7 +27,8 @@ mpu_*
 *jlink
 *.board
 *.flash
-*sc*
+*.html
+# *sc*
 *cm23*
 *cm3*
 *cm7*
@@ -50,4 +50,6 @@ README*
 *.ini
 RTE
 documents
+documentation
 Readme.txt
+doc
