@@ -42,7 +42,7 @@
 
 #### 相关开发板
 
-[![sites](docs/test.jpg)](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.72882e8dY3Klzv&id=615219195339&_u=3gas3eu2ab8)
+[![sites](docs/test.png)](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-6273769129.11.6aa12975OynQp0&id=643080691736)
 
 
 ### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
