@@ -32,15 +32,15 @@
 #define  LED0_PIN         (Pin04)
 
 /* LED1 Port/Pin definition */
-#define  LED1_PORT        (PortD)
-#define  LED1_PIN         (Pin04)
+#define  LED1_PORT        (PortA)
+#define  LED1_PIN         (Pin07)
 
 /* LED2 Port/Pin definition */
-#define  LED2_PORT        (PortD)
-#define  LED2_PIN         (Pin05)
+#define  LED2_PORT        (PortB)
+#define  LED2_PIN         (Pin03)
 
 /* LED3 Port/Pin definition */
-#define  LED3_PORT        (PortD)
+#define  LED3_PORT        (PortB)
 #define  LED3_PIN         (Pin06)
 
 /* LED0~3 toggle definition */
@@ -102,12 +102,12 @@ int32_t main(void)
     {
         LED0_TOGGLE();
         Ddl_Delay1ms(DLY_MS);
-//        LED1_TOGGLE();
-//        Ddl_Delay1ms(DLY_MS);
-//        LED2_TOGGLE();
-//        Ddl_Delay1ms(DLY_MS);
-//        LED3_TOGGLE();
-//        Ddl_Delay1ms(DLY_MS);
+        LED1_TOGGLE();
+        Ddl_Delay1ms(DLY_MS);
+        LED2_TOGGLE();
+        Ddl_Delay1ms(DLY_MS);
+        LED3_TOGGLE();
+        Ddl_Delay1ms(DLY_MS);
         /* de-init if necessary */
         //PORT_DeInit();
     };
