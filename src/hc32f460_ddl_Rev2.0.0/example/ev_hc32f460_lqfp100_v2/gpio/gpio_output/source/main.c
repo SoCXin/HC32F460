@@ -28,8 +28,8 @@
  * Local pre-processor symbols/macros ('#define')
  ******************************************************************************/
 /* LED0 Port/Pin definition */
-#define  LED0_PORT        (PortD)
-#define  LED0_PIN         (Pin03)
+#define  LED0_PORT        (PortB)
+#define  LED0_PIN         (Pin04)
 
 /* LED1 Port/Pin definition */
 #define  LED1_PORT        (PortD)
@@ -102,12 +102,12 @@ int32_t main(void)
     {
         LED0_TOGGLE();
         Ddl_Delay1ms(DLY_MS);
-        LED1_TOGGLE();
-        Ddl_Delay1ms(DLY_MS);
-        LED2_TOGGLE();
-        Ddl_Delay1ms(DLY_MS);
-        LED3_TOGGLE();
-        Ddl_Delay1ms(DLY_MS);
+//        LED1_TOGGLE();
+//        Ddl_Delay1ms(DLY_MS);
+//        LED2_TOGGLE();
+//        Ddl_Delay1ms(DLY_MS);
+//        LED3_TOGGLE();
+//        Ddl_Delay1ms(DLY_MS);
         /* de-init if necessary */
         //PORT_DeInit();
     };

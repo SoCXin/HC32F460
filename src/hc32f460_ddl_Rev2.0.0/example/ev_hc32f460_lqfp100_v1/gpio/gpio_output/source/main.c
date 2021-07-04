@@ -28,7 +28,7 @@
  * Local pre-processor symbols/macros ('#define')
  ******************************************************************************/
 /* LED0 Port/Pin definition */
-#define  LED0_PORT        (PortE)
+#define  LED0_PORT        (PortB)
 #define  LED0_PIN         (Pin06)
 
 /* LED1 Port/Pin definition */
@@ -41,7 +41,7 @@
 
 /* LED3 Port/Pin definition */
 #define  LED3_PORT        (PortB)
-#define  LED3_PIN         (Pin09)
+#define  LED3_PIN         (Pin04)
 
 /* LED0~3 toggle definition */
 #define  LED0_TOGGLE()    (PORT_Toggle(LED0_PORT, LED0_PIN))
