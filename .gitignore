@@ -28,6 +28,7 @@ mpu_*
 *.board
 *.flash
 *.html
+Objects
 # *sc*
 *cm23*
 *cm3*
