@@ -1,59 +1,37 @@
 {
     "type":"MCU",
     "name":"HC32F460",
-    "title": "HDSC MCU HC32F460",
-    "description":"HDSC Cortex-M4 HC32F460 MCU",
-    "version":"1.0.0",
+    "title": "xhsc HC32F460 MCU",
+    "description":"xhsc Cortex-M4 MCU",
     "Core": {
-        "num": 1,
-        "type":"Cortex-M4",
-        "Freq": 200,
-        "DMIPS": 250,
+        "CoreNum": 1,
+        "Core":"Cortex-M4",
+        "Fmax":200,
+        "DMIPS": 244,
         "CoreMark": 680
     },
     "manufacturer": {
-        "vendor":"HDSC",
-        "homepage":"https://www.hdsc.com.cn/Category83-1490"
+        "vendor":"xhsc",
+        "homepage":"http://www.xhsc.com.cn"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SoCXin/HC32F460.git"
     },
-    "series":["HC32F460KC","HC32F460JC","HC32F460KE","HC32F460PE"],
-    "package":["UFBGA100","LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
-    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
-    "price":[14,18],
-    "HC32F460KC": {
-        "RAM":20000,
-        "ROM":64000,
-        "package":"LQFP64",
-        "peripheral": ["ADC","TIM","PWM"],
-        "GPIO":18,
-        "price":6.8
-    },
-    "PWR": {
-        "VDD": [1800,5500],
-        "Ivdd": 3.5,
-        "LDO": [5000,3300],
-        "rate": 1024
-    },
-    "EMC": {
-        "EFT": 2000,
-        "ESD": 4000
-    },
-    "upload": {
-        "ISP": true,
-        "IAP": true,
-        "SWD": true,
-        "speed": 115200
+    "version":"1.0.0",
+    "series":["HC32F460"],
+    "package":["VFBGA100","LQFP100","LQFP64","LQFP48","QFN48"],
+    "peripheral": ["ADC","LPUSART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [1.8,3.6],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
     },
     "keywords": [
-        "dev-platform",
-        "ARM",
-        "Cortex-M",
-        "HDSC",
-        "HC32F460",
-        "DAC","ADC","LPUSART","I2C","RTC","SPI",
+        "Cortex-M4",
+        "XHSC",
+        "USB","ADC","I2C","RTC","SPI","LPUSART",
         "3.6V","1.8V"
     ]
 }

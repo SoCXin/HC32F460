@@ -1,0 +1,6 @@
+r
+h
+loadfile [FirmwarePath]
+r
+g
+q

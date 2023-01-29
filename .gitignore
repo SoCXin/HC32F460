@@ -1,56 +1,66 @@
 .pio/
 .vscode/
-Change*
-CHANGE*
-README*
+__pycache__/
+settings
+Debug
+*.py[cod]
+*$py.class
+*__pyc*/
+*.DS_Store
+*.autosave
+*~
+~*
+.settings
+# .mxproject
+# Change*
+# CHANGE*
 COPY*
 *CONTRIBU*
-AUTH*
-*PATCH*
-*.bin
-*.out
-*.o
-~$*
-output
-RTE
-*uvguix*
-*.scvd
-*.tmp
-settings
-config
-.settings
-RTE
-output
-flashloader
-mpu_*
-*launch
-*jlink
-*.board
-*.flash
-*.html
-Objects
-# *sc*
-*cm23*
-*cm3*
-*cm7*
-*cm1*
-*cm0*
-*.txt
-README*
-*.chm
-*.bin
-*.out
-*.dep
+LICENSE*
+*.swp
+*.lck
 *.log
 *.ewt
 *.ewd
-*.sfr
-*.icf
-*uvgui*
-*uvopt*
-*.ini
+*.crf
+*.dep
+*.map
+*.hex
+*.bin
+*.bak
+# *.txt
+*.lst
+*.sct
+*.elf
+# *.ini
+*_sc*
+*cm23*
+*cm33*
+# *cm3*
+# *cm4*
+# *cm7*
+*cm1*
+core_armv8*
+*.uvgu*
+# .gitmodules
+# *.png
+*.jpg
+*.rst
+.travis.yml
+tests
+# mk
+*.launch
+DebugConfig
 RTE
-documents
-documentation
-Readme.txt
-doc
+*.d
+*.o
+*.axf
+*.htm
+*.lnp
+*.scvd
+*.iex
+# !sRCA.bin
+Obj
+List
+Exe
+TEST/
